@@ -1,0 +1,28 @@
+{
+"usuarios": [
+{"id": 1, "nome": "Hudson Werneck", "email": "hudsonwerneckferreira@gmail.com", "senha": 123, "idAssinatura": 1},
+{"id": 2, "nome": "Laura do Xerê", "email": "pedro.foliveira43@gmail.com", "senha": 122, "idAssinatura": 2},
+{"id": 3, "nome": "Marina Ficticia", "email": "marinamoraiss06@gmail.com", "senha": 133, "idAssinatura": 3}
+],
+"perfis": [
+{"id": 1, "nomePerfil": "Hudson Werneck", "infantil": false, "avatar": "https://svgsilh.com/svg/156632.svg", "idUsuario": 1},
+{"id": 2, "nomePerfil": "lynxszzz", "infantil": true, "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU_iYYs8MIQ0oI4Ewpv4M9pD1c1PYTELoCJ-6BtWqzEA&s=10", "idUsuario": 2},
+{"id": 3, "nomePerfil": "marina", "infantil": false, "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdZilM1h8T82-1tGpouP3kOvvBiA-pC-eazzS53ctcAQ&s=10", "idUsuario": 3},
+{"id": 4, "nomePerfil": "Alice", "infantil": false, "avatar": "https://svgsilh.com/svg/156632.svg", "idUsuario": 2}
+],
+"assinaturas": [
+{"id": 1, "dataInicio": "17/07/2025", "dataProximaCobranca": "17/10/2026", "ativo": true, "idMetododePagamento": 1, "idPlanodeAssinatura": 1},
+{"id": 2, "dataInicio": "08/11/2023", "dataProximaCobranca": "08/10/2026", "ativo": false, "idMetododePagamento": 2, "idPlanodeAssinatura": 2},
+{"id": 3, "dataInicio": "25/02/2026", "dataProximaCobranca": "25/10/2026", "ativo": true, "idMetododePagamento": 3, "idPlanodeAssinatura": 3}
+],
+"metodosdepagamentos": [
+{"id": 1, "numeroCartao": "1234.1234.1234.1234", "nomeCartao": "Hudson W Ferreira", "validade": "15/10/2028", "cvv": 132},
+{"id": 2, "numeroCartao": "4321.4321.4321.4321", "nomeCartao": "Laura F Pereira", "validade": "14/09/2029", "cvv": 123},
+{"id": 3, "numeroCartao": "1010.1010.1010.1010", "nomeCartao": "Marina M Santos", "validade": "12/04/2030", "cvv": 321}
+],
+"planosdeassinaturas": [
+{"id": 1, "nome": "Basico", "preco": "10.00", "telasSimultaneas": 1, "anuncios": true},
+{"id": 2, "nome": "Padrao", "preco": "20.00", "telasSimultaneas": 2, "anuncios": false},
+{"id": 3, "nome": "Premium", "preco": "30.00", "telasSimultaneas": 3, "anuncios": false}
+]
+}
